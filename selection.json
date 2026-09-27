@@ -1,0 +1,143 @@
+{
+  "selected_lookback": 14,
+  "pooled_validation_mae": 286479.2583684262,
+  "candidate_pooled_mae": {
+    "7": 286872.4910778129,
+    "14": 286479.2583684262,
+    "30": 286752.365787673
+  },
+  "selection_rule": "Lowest pooled validation MAE across two expanding chronological folds; same 30-day-complete target dates for all candidates.",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "trials": [
+    {
+      "lookback": 7,
+      "fold": 1,
+      "train_through": "2023-08-08",
+      "validation_start": "2023-08-09",
+      "validation_end": "2024-04-02",
+      "validation_windows": 157,
+      "selected_epochs": [
+        54,
+        48,
+        47
+      ],
+      "cnn": {
+        "mae": 76693.636188307,
+        "rmse": 318918.1861658319
+      },
+      "previous_day": {
+        "mae": 79266.27388535033,
+        "rmse": 316136.0257866817
+      }
+    },
+    {
+      "lookback": 7,
+      "fold": 2,
+      "train_through": "2024-04-02",
+      "validation_start": "2024-04-03",
+      "validation_end": "2024-11-26",
+      "validation_windows": 136,
+      "selected_epochs": [
+        6,
+        5,
+        1
+      ],
+      "cnn": {
+        "mae": 529505.433854669,
+        "rmse": 3529241.326647964
+      },
+      "previous_day": {
+        "mae": 529609.9852941176,
+        "rmse": 3529166.2655916447
+      }
+    },
+    {
+      "lookback": 14,
+      "fold": 1,
+      "train_through": "2023-08-08",
+      "validation_start": "2023-08-09",
+      "validation_end": "2024-04-02",
+      "validation_windows": 157,
+      "selected_epochs": [
+        48,
+        68,
+        95
+      ],
+      "cnn": {
+        "mae": 76191.95463608146,
+        "rmse": 319615.04611449345
+      },
+      "previous_day": {
+        "mae": 79266.27388535033,
+        "rmse": 316136.0257866817
+      }
+    },
+    {
+      "lookback": 14,
+      "fold": 2,
+      "train_through": "2024-04-02",
+      "validation_start": "2024-04-03",
+      "validation_end": "2024-11-26",
+      "validation_windows": 136,
+      "selected_epochs": [
+        29,
+        3,
+        6
+      ],
+      "cnn": {
+        "mae": 529237.3957653241,
+        "rmse": 3529407.386581329
+      },
+      "previous_day": {
+        "mae": 529609.9852941176,
+        "rmse": 3529166.2655916447
+      }
+    },
+    {
+      "lookback": 30,
+      "fold": 1,
+      "train_through": "2023-08-08",
+      "validation_start": "2023-08-09",
+      "validation_end": "2024-04-02",
+      "validation_windows": 157,
+      "selected_epochs": [
+        43,
+        70,
+        23
+      ],
+      "cnn": {
+        "mae": 76488.88414557993,
+        "rmse": 319577.580796983
+      },
+      "previous_day": {
+        "mae": 79266.27388535033,
+        "rmse": 316136.0257866817
+      }
+    },
+    {
+      "lookback": 30,
+      "fold": 2,
+      "train_through": "2024-04-02",
+      "validation_start": "2024-04-03",
+      "validation_end": "2024-11-26",
+      "validation_windows": 136,
+      "selected_epochs": [
+        5,
+        4,
+        0
+      ],
+      "cnn": {
+        "mae": 529483.0026833245,
+        "rmse": 3529141.311878936
+      },
+      "previous_day": {
+        "mae": 529609.9852941176,
+        "rmse": 3529166.2655916447
+      }
+    }
+  ]
+}

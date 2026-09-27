@@ -1,0 +1,26 @@
+{
+  "unit": "cubic meters",
+  "test_period": [
+    "2024-11-27",
+    "2025-07-23"
+  ],
+  "test_windows": 179,
+  "selected_lookback": 14,
+  "improved_cnn": {
+    "mae": 68450.57356704229,
+    "rmse": 98739.35229474527
+  },
+  "previous_day": {
+    "mae": 71250.89944134078,
+    "rmse": 100202.93720906599
+  },
+  "previous_week": {
+    "mae": 172113.4245810056,
+    "rmse": 312579.38645327016
+  },
+  "caveat": "This test period was inspected in the original experiment. It is reused for comparison, not a new untouched holdout. All new settings were selected on earlier validation periods.",
+  "original_cnn": {
+    "mae": 163221.61103118767,
+    "rmse": 269454.8966690326
+  }
+}

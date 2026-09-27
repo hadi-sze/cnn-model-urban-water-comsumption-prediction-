@@ -1,0 +1,90 @@
+{
+  "unit": "cubic meters",
+  "method": "Recursive fixed-checkpoint forecasts at common complete origins after model selection; overlapping origins are not independent.",
+  "horizons": [
+    {
+      "horizon_days": 1,
+      "origins": 167,
+      "cnn": {
+        "mae": 70852.64774106142,
+        "rmse": 101538.48324339368
+      },
+      "previous_day": {
+        "mae": 73447.68862275449,
+        "rmse": 102846.87981631768
+      }
+    },
+    {
+      "horizon_days": 2,
+      "origins": 167,
+      "cnn": {
+        "mae": 99628.29116183468,
+        "rmse": 158646.33855730627
+      },
+      "previous_day": {
+        "mae": 102975.7365269461,
+        "rmse": 160301.19314541708
+      }
+    },
+    {
+      "horizon_days": 3,
+      "origins": 167,
+      "cnn": {
+        "mae": 132757.01556791714,
+        "rmse": 212623.65092692975
+      },
+      "previous_day": {
+        "mae": 135707.74251497007,
+        "rmse": 213707.34841569734
+      }
+    },
+    {
+      "horizon_days": 4,
+      "origins": 167,
+      "cnn": {
+        "mae": 151455.80490787953,
+        "rmse": 252024.9378651285
+      },
+      "previous_day": {
+        "mae": 154654.61676646708,
+        "rmse": 253311.04263639776
+      }
+    },
+    {
+      "horizon_days": 5,
+      "origins": 167,
+      "cnn": {
+        "mae": 170236.07929088408,
+        "rmse": 283328.321197604
+      },
+      "previous_day": {
+        "mae": 174600.02994011977,
+        "rmse": 285291.7893308302
+      }
+    },
+    {
+      "horizon_days": 6,
+      "origins": 167,
+      "cnn": {
+        "mae": 175601.8762518087,
+        "rmse": 304636.65374475985
+      },
+      "previous_day": {
+        "mae": 179612.9760479042,
+        "rmse": 306703.3518926092
+      }
+    },
+    {
+      "horizon_days": 7,
+      "origins": 167,
+      "cnn": {
+        "mae": 178890.000857,
+        "rmse": 320682.0092177252
+      },
+      "previous_day": {
+        "mae": 180272.25748502993,
+        "rmse": 323084.7829472781
+      }
+    }
+  ]
+}
